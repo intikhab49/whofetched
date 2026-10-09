@@ -1,0 +1,8 @@
+title: whofetched
+description: I gave ChatGPT, Claude, Gemini, Grok, Perplexity and Copilot secret links and logged who came to read them.
+author: Intikhab Azam
+twitter:
+  username: AzamIntikhab
+exclude:
+  - make_header.py
+  - make_charts.py

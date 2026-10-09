@@ -11,7 +11,7 @@
 [![Evidence](https://img.shields.io/badge/evidence-OpenTimestamps-1baf7a?style=for-the-badge)](evidence/2026-10-09)
 [![License](https://img.shields.io/badge/license-Apache%202.0-c3c2b7?style=for-the-badge)](LICENSE)
 
-[What we found](#what-we-found-9-october-2026) · [How it works](#how-it-works) · [Run your own](#run-your-own-test) · [Evidence](#evidence) · [Limits](#limits) · [Full write-up](RESULTS.md)
+[The story](https://intikhab49.github.io/whofetched/) · [What we found](#what-we-found-9-october-2026) · [How it works](#how-it-works) · [Run your own](#run-your-own-test) · [Evidence](#evidence) · [Limits](#limits) · [Full write-up](RESULTS.md)
 
 </div>
 
