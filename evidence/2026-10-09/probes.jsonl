@@ -37,3 +37,5 @@
 {"round":"r5","mode":"z","product":"Claude","token":"ZBbF-oFolGRN","url":"https://fieldnotes.intikhabhunzai.workers.dev/z/ZBbF-oFolGRN","expected_code":"CINDER-HARBOR-8940","minted_at":"2026-10-09T08:56:27.807Z"}
 {"round":"r6","mode":"p","product":"ChatGPT","token":"RnpqYz3LGGmZ","url":"https://fieldnotes.intikhabhunzai.workers.dev/p/RnpqYz3LGGmZ","expected_code":"ASHEN-LANTERN-4613","minted_at":"2026-10-09T09:01:15.511Z"}
 {"type":"correction","token":"RnpqYz3LGGmZ","product":"ChatGPT","note":"ChatGPT-User fetched /p/RnpqYz3LGGm (last char Z dropped; truncation by copy or by ChatGPT unknown) and reported that page code GILDED-RIDGE-1257; host not blocked after the r5 403","fetched_token":"RnpqYz3LGGm","fetched_expected_code":"GILDED-RIDGE-1257"}
+{"round":"r7","mode":"p","product":"Grok","token":"_SYzm9KRqCIj","url":"https://fieldnotes.intikhabhunzai.workers.dev/p/_SYzm9KRqCIj","expected_code":"NIMBLE-VALLEY-7038","minted_at":"2026-10-09T09:21:52.273Z"}
+{"round":"r7","mode":"q","product":"Grok","token":"URxIY-JvHdsf","url":"https://fieldnotes.intikhabhunzai.workers.dev/q/URxIY-JvHdsf","expected_code":"FROSTY-RAVEN-5038","minted_at":"2026-10-09T09:21:52.356Z"}

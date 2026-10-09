@@ -36,7 +36,7 @@ Side tools:
 The operator reused existing chats this round.
 
 - **Repeats** matched r1c for all four apps, with correct codes.
-- **Grok's repeat:** 11 page requests plus 1 malformed `/c/<token>:`, from **12 IPs on 9 networks in 7 countries** (AR, BR, GB, JP, MX, US, VE). These included consumer ISPs (ALCANS and Aranet Play in Brazil, UniNet in Mexico, FI-VEN in Venezuela, I-SUR in Argentina). The malformed request came from **AS396319, registered to Oxylabs**.
+- **Grok's repeat:** 11 page requests plus 1 malformed `/c/<token>:`, from **12 IPs on 9 networks in 7 countries** (AR, BR, GB, JP, MX, US, VE). These included consumer ISPs (ALCANS and Aranet Play in Brazil, UniNet in Mexico, FI-VEN in Venezuela, I-SUR in Argentina). The malformed request came through **AS396319, a network registered to Oxylabs**. RIPEstat lists the network holder as "US-INTERNET-396319 - Oxylabs", and the IP block itself is leased to Sentris Network LLC.
 - **`/blocked/`, disallowed in robots.txt:**
   - Gemini read it.
   - Grok read it: 8 requests plus 1 malformed, from 9 IPs on 7 networks in 6 countries, including Claro in Brazil and UAinet in Ukraine.
@@ -63,6 +63,15 @@ ChatGPT refused with "restricted-URL error" and sent **zero requests**. This ran
 
 ChatGPT fetched `/p/RnpqYz3LGGm`, which is the link with its last character missing, and then `/` a second later. It reported `GILDED-RIDGE-1257`, which is the code of the truncated URL. The host was not blocked, so r4's refusal was about the `/q/` path, meaning robots.txt.
 
+### r7: Grok's last chance (09:23–09:28)
+
+Two more links, each in a new chat: an open `/p/` page and an off-limits `/q/` page on the fresh hostname. Grok showed the same pattern for the fifth and sixth time:
+- **`/p/`:** 9 requests from 9 IPs on 7 networks (GB, MX, PL, US), between 09:23:05 and 09:24:18. The networks included Datacamp, the proxy network StackFox named in February.
+- **`/q/`, off-limits:** 9 requests from 9 IPs on 9 networks (BR, PL, US), between 09:23:37 and 09:27:57. They included the Polish mobile carrier Play, three small Brazilian ISPs (Telemidia, Escorpion, ENGEPLUS) and, for the second time, Oxylabs' network AS396319.
+- Every request used a browser user agent. None read robots.txt, and both codes were correct.
+
+Over all six requests, Grok used **59 different IPs on 33 networks in 14 countries, and none was used twice**.
+
 ## ChatGPT and robots.txt
 
 | Round | Off-limits page | OpenAI already had this host's robots.txt? | ChatGPT |
@@ -85,7 +94,7 @@ Checked with `tools/verify-ips.js` against the lists published on 9 October 2026
 | PerplexityBot | 18.97.9.96, 18.97.9.98 | Yes, Perplexity's `perplexitybot.json` |
 | Gemini (`Google`) | 142.250.88.32, .33, .34, 108.177.64.35 | **No.** On none of Google's user-triggered-fetcher, special-crawler or Googlebot lists, though inside Google's own network |
 | Claude-User | 34.162.191.81 | No list checked. Google Cloud (AS396982) |
-| Grok | 41 distinct addresses on 25 networks in 13 countries, over 4 requests. None was reused between requests | No list, as expected |
+| Grok | 59 distinct addresses on 33 networks in 14 countries, over 6 requests. None was reused between requests | No list, as expected |
 
 None of these IPs had a reverse-DNS (PTR) record.
 

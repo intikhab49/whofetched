@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09T09:08:50.502Z",
-  "source_rows": 80,
+  "generated_at": "2026-10-09T09:32:49.663Z",
+  "source_rows": 98,
   "probes": [
     {
       "round": "r1",
@@ -930,6 +930,63 @@
       "reply_code": "GILDED-RIDGE-1257",
       "code_check": "match",
       "note": "ChatGPT-User fetched the URL with its last character dropped; this is the code of the truncated URL"
+    },
+    {
+      "round": "r7",
+      "mode": "p",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "product": "Grok",
+      "token": "_SYzm9KRqCIj",
+      "page_requests": 9,
+      "malformed_requests": 0,
+      "distinct_ips": 9,
+      "distinct_asns": 7,
+      "countries": [
+        "GB",
+        "MX",
+        "PL",
+        "US"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T09:23:05.259Z",
+      "last": "2026-10-09T09:24:18.890Z",
+      "reply": "The canary code on that page is NIMBLE-VALLEY-7038.",
+      "reply_code": "NIMBLE-VALLEY-7038",
+      "code_check": "match",
+      "note": "final Grok repeat, new chat each"
+    },
+    {
+      "round": "r7",
+      "mode": "q",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "product": "Grok",
+      "token": "URxIY-JvHdsf",
+      "page_requests": 9,
+      "malformed_requests": 0,
+      "distinct_ips": 9,
+      "distinct_asns": 9,
+      "countries": [
+        "BR",
+        "PL",
+        "US"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T09:23:37.851Z",
+      "last": "2026-10-09T09:27:57.282Z",
+      "reply": "The canary code on that page is FROSTY-RAVEN-5038.",
+      "reply_code": "FROSTY-RAVEN-5038",
+      "code_check": "match",
+      "note": "final Grok repeat, new chat each"
     }
   ],
   "robots": [

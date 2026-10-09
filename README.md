@@ -34,16 +34,16 @@ IP lookups guess. whofetched proves it causally: a URL that exists nowhere else 
 | **Claude** (claude.ai) | `Claude-User`, Google Cloud | Yes | Reads it **before** fetching | Refused | Stopped |
 | **ChatGPT** (chatgpt.com) | `ChatGPT-User`, Microsoft Azure, IP on OpenAI's list | Yes | Not on a first visit. OpenAI's search crawler reads it 1–3 min later | Read it on the first visit, refused once robots.txt was known | Stopped |
 | **Gemini** | A user agent of just `Google`, from Google's network, IP on none of Google's lists | Barely | Never read it | Read it | Not testable by user agent |
-| **Grok** | **9–12 IPs per request** on 7–9 networks: proxy networks, consumer ISPs, one network registered to Oxylabs. 41 different IPs over 4 requests, none reused | **No**, every request posed as a normal browser | Never read it | Read it | Not testable by user agent |
+| **Grok** | **9–12 IPs per request** on 7–9 networks: proxy networks, consumer ISPs, twice a network registered to Oxylabs. 59 different IPs over 6 requests, none reused | **No**, every request posed as a normal browser | Never read it | Read it | Not testable by user agent |
 | **Perplexity** | Only its crawler, `PerplexityBot`, which read robots.txt and the homepage, never the page | As its crawler | Yes | Never fetched any test page | — |
 | **GitHub Copilot** | Nothing | — | — | Declined the task | — |
 | **Codex CLI** | Nothing, although it printed "Opened" with the link | — | — | — | — |
 
-<img src="docs/charts/ips-per-request.png" alt="Dot chart of distinct IP addresses that fetched the page for one request, per AI app, on 9 October 2026. Grok: 9, 12, 9 and 11 IPs across four requests. Gemini: 1 in all four. ChatGPT: 1 in five requests and 0 in two refusals. Claude: 1 in three requests and 0 in two refusals. Perplexity, GitHub Copilot and Codex CLI: 0, no request reached the site." width="100%">
+<img src="docs/charts/ips-per-request.png" alt="Dot chart of distinct IP addresses that fetched the page for one request, per AI app, on 9 October 2026. Grok: 9, 12, 9, 11, 9 and 9 IPs across six requests. Gemini: 1 in all four. ChatGPT: 1 in five requests and 0 in two refusals. Claude: 1 in three requests and 0 in two refusals. Perplexity, GitHub Copilot and Codex CLI: 0, no request reached the site." width="100%">
 
 Also tested: Claude Code's fetch tool runs on **your own machine** and says `Claude-User (claude-code/…)`. Jina Reader fetches from Google Cloud as a generic Linux Chrome whose version hints don't match its user agent.
 
-Read this with care. It's 1–4 runs per app, done by hand on one day. OpenAI and Google both say that fetches a user asks for may skip robots.txt, so ChatGPT and Gemini reading an off-limits page matches their published policies. The point of the table is that you can now **see** each behavior instead of guessing. Every round, timestamp and reply is in [RESULTS.md](RESULTS.md).
+Read this with care. It's 1–6 runs per app, done by hand on one day. OpenAI and Google both say that fetches a user asks for may skip robots.txt, so ChatGPT and Gemini reading an off-limits page matches their published policies. The point of the table is that you can now **see** each behavior instead of guessing. Every round, timestamp and reply is in [RESULTS.md](RESULTS.md).
 
 **Prior work:** Cloudflare caught Perplexity's undeclared crawlers with a manual version of this test in 2025. StackFox reported in February 2026 that Grok sends spoofed browser user agents from data-center proxies. What's new here: a secret link per app as proof, robots.txt and 403 tests, home-ISP and Oxylabs exits, and a same-day comparison across apps.
 
@@ -113,7 +113,7 @@ Things that went wrong here, so you can skip them:
 
 | File | What it is |
 |---|---|
-| `hits.redacted.jsonl` | All 80 requests. Cloud and AI-company IPs kept in full, proxy and home-ISP IPs cut to /24, the operator's own address replaced |
+| `hits.redacted.jsonl` | All 98 requests. Cloud and AI-company IPs kept in full, proxy and home-ISP IPs cut to /24, the operator's own address replaced |
 | `probes.jsonl` | Which link went to which app, when, and the code it should show |
 | `answers.jsonl` | What each app replied |
 | `summary.json` | The per-request numbers behind the table and chart |
@@ -123,7 +123,7 @@ Check it with `ots verify SHA256SUMS.ots`. The raw log can be shared on request 
 
 ## Limits
 
-- **Small sample.** 1–4 runs per app, by hand, on one day (9 Oct 2026, 08:11–09:02 UTC). These apps change often.
+- **Small sample.** 1–6 runs per app, by hand, on one day (9 Oct 2026, 08:11–09:28 UTC). These apps change often.
 - **One account per app,** default settings. Plans, regions and models may behave differently.
 - **Tiny test pages on `workers.dev`.** Perplexity flagged the domain as possible phishing. Real sites may be treated differently.
 - **Proof covers page requests only.** Page requests carry the secret token. robots.txt reads don't, so they're matched by user agent, verified IP and timing.
