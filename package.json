@@ -1,0 +1,19 @@
+{
+  "name": "whofetched",
+  "version": "1.0.0",
+  "description": "Prove which AI fetched your page: secret canary links, a Cloudflare Worker log, and published-IP checks",
+  "scripts": {
+    "dev": "wrangler dev",
+    "db:init": "wrangler d1 execute whofetched --remote --file schema.sql",
+    "db:init:local": "wrangler d1 execute whofetched --local --file schema.sql",
+    "deploy": "wrangler deploy --secrets-file .prod.vars",
+    "mint": "node tools/mint.js",
+    "report": "node tools/report.js"
+  },
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "devDependencies": {
+    "wrangler": "4.125.0"
+  },
+  "private": true
+}

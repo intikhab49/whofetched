@@ -1,0 +1,4 @@
+# Evidence files are hashed in SHA256SUMS: never convert their line endings.
+evidence/** -text
+*.png binary
+*.ots binary

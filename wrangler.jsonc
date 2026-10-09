@@ -1,0 +1,18 @@
+{
+  // whofetched: canary-URL test site. Every request is logged to D1.
+  // Copy this file to wrangler.<name>.local.jsonc (gitignored), fill in your own values, and deploy with -c.
+  "name": "whofetched",
+  // "account_id": "<your Cloudflare account id>",   // optional; pins deploys to one account
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-27",
+  "workers_dev": true,
+  "preview_urls": false,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "whofetched",
+      // Replace with the id printed by `npx wrangler d1 create whofetched`. The zero id works for local dev.
+      "database_id": "00000000-0000-0000-0000-000000000000"
+    }
+  ]
+}

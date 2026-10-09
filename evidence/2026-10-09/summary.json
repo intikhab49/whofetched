@@ -1,0 +1,972 @@
+{
+  "generated_at": "2026-10-09T09:08:50.502Z",
+  "source_rows": 80,
+  "probes": [
+    {
+      "round": "r1",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "ChatGPT",
+      "token": "jQyAO8927Yo0",
+      "page_requests": 2,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:11:16.150Z",
+      "last": "2026-10-09T08:11:53.854Z",
+      "reply": null,
+      "reply_code": "MOSSY-YARROW-8004",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Claude",
+      "token": "K9Sy5uEzVJaR",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:12:42.325Z",
+      "last": "2026-10-09T08:12:42.325Z",
+      "reply": null,
+      "reply_code": "RUSTY-EMBANKMENT-2467",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Perplexity",
+      "token": "1ZphmJ3vBiWb",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:13:15.485Z",
+      "last": "2026-10-09T08:13:15.485Z",
+      "reply": null,
+      "reply_code": "BRISK-RIDGE-3322",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Gemini",
+      "token": "tMXfZO7sIR4z",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:13:44.639Z",
+      "last": "2026-10-09T08:13:44.639Z",
+      "reply": null,
+      "reply_code": "MOSSY-RAVEN-8388",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Copilot",
+      "token": "bSR5zxHco4sH",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:14:08.557Z",
+      "last": "2026-10-09T08:14:08.557Z",
+      "reply": null,
+      "reply_code": "WILLOW-RAVEN-3071",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Grok",
+      "token": "iEzyMwqOOV6i",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:14:37.817Z",
+      "last": "2026-10-09T08:14:37.817Z",
+      "reply": null,
+      "reply_code": "ELFIN-PEBBLE-7528",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1b",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "ChatGPT",
+      "token": "2_OE8GRMhZsb",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:16:56.210Z",
+      "last": "2026-10-09T08:16:56.210Z",
+      "reply": null,
+      "reply_code": "LUNAR-UPLAND-2951",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1b",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Claude",
+      "token": "ALbNHI8oTBkJ",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:17:18.633Z",
+      "last": "2026-10-09T08:17:18.633Z",
+      "reply": null,
+      "reply_code": "FROSTY-LAGOON-1608",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1b",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Perplexity",
+      "token": "P0LpBl12niMv",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:17:40.851Z",
+      "last": "2026-10-09T08:17:40.851Z",
+      "reply": null,
+      "reply_code": "NIMBLE-CANYON-4575",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1b",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Gemini",
+      "token": "_zTo-PpyFgQg",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:18:06.856Z",
+      "last": "2026-10-09T08:18:06.856Z",
+      "reply": null,
+      "reply_code": "CINDER-THISTLE-7276",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1b",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Copilot",
+      "token": "AfOmM8cb4Kla",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:18:32.171Z",
+      "last": "2026-10-09T08:18:32.171Z",
+      "reply": null,
+      "reply_code": "MOSSY-NETTLE-9405",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1b",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Grok",
+      "token": "8073-5H05egp",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:18:52.392Z",
+      "last": "2026-10-09T08:18:52.392Z",
+      "reply": null,
+      "reply_code": "AMBER-ORCHID-4804",
+      "code_check": "match",
+      "note": "operator opened the link in his own browser and pasted the page text; not an AI reply"
+    },
+    {
+      "round": "r1c",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Codex-CLI",
+      "minted_as": "ChatGPT",
+      "token": "etYzyd23tokm",
+      "page_requests": 0,
+      "malformed_requests": 0,
+      "distinct_ips": 0,
+      "distinct_asns": 0,
+      "countries": [],
+      "statuses": [],
+      "ua_kinds": [],
+      "first": null,
+      "last": null,
+      "reply": "(Codex CLI v0.160.1) printed \"Opened https://whofetched.intikhabhunzai.workers.dev/c/etYzyd23tokm\", then: \"I couldn’t access that link.\"",
+      "reply_code": null,
+      "code_check": null,
+      "note": "link was pasted into OpenAI Codex CLI, not ChatGPT"
+    },
+    {
+      "round": "r1c",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Claude",
+      "token": "CB3N2U7F5Sax",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "US"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "Claude-User"
+      ],
+      "first": "2026-10-09T08:33:07.392Z",
+      "last": "2026-10-09T08:33:07.392Z",
+      "reply": "answered (operator reported done; reply text not recorded)",
+      "reply_code": null,
+      "code_check": null
+    },
+    {
+      "round": "r1c",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Perplexity",
+      "token": "LhwCHQw6yK7s",
+      "page_requests": 0,
+      "malformed_requests": 0,
+      "distinct_ips": 0,
+      "distinct_asns": 0,
+      "countries": [],
+      "statuses": [],
+      "ua_kinds": [],
+      "first": null,
+      "last": null,
+      "reply": "\"I couldn’t load the page—it returned no accessible content, so I can’t tell what the link contains. The domain is a Cloudflare Workers subdomain (*.workers.dev), which is a legitimate hosting platform but is also commonly used for short-lived links, proxies, and sometimes phishing pages.\"",
+      "reply_code": null,
+      "code_check": null
+    },
+    {
+      "round": "r1c",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Gemini",
+      "token": "2tk7oPnFIdhJ",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "BE"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "Google (bare)"
+      ],
+      "first": "2026-10-09T08:27:56.891Z",
+      "last": "2026-10-09T08:27:56.891Z",
+      "reply": "answered (operator reported done; reply text not recorded)",
+      "reply_code": null,
+      "code_check": null
+    },
+    {
+      "round": "r1c",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Copilot",
+      "token": "ZM_5qOe3e5iT",
+      "page_requests": 0,
+      "malformed_requests": 0,
+      "distinct_ips": 0,
+      "distinct_asns": 0,
+      "countries": [],
+      "statuses": [],
+      "ua_kinds": [],
+      "first": null,
+      "last": null,
+      "reply": "\"I can’t directly access or determine the source of that external worker link from here without a concrete task or a repo/URL to inspect.\"",
+      "reply_code": null,
+      "code_check": null,
+      "note": "GitHub Copilot chat on github.com"
+    },
+    {
+      "round": "r1c",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Grok",
+      "token": "CmMjW4cstG2A",
+      "page_requests": 9,
+      "malformed_requests": 0,
+      "distinct_ips": 9,
+      "distinct_asns": 7,
+      "countries": [
+        "BR",
+        "ES",
+        "FR",
+        "IN",
+        "US"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:28:42.378Z",
+      "last": "2026-10-09T08:29:45.269Z",
+      "reply": "answered (operator reported done; reply text not recorded)",
+      "reply_code": null,
+      "code_check": null
+    },
+    {
+      "round": "r1c",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "ClaudeCode-WebFetch",
+      "token": "VJI63wp_GU3P",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "PK"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "Claude-User (Claude Code)"
+      ],
+      "first": "2026-10-09T08:25:18.660Z",
+      "last": "2026-10-09T08:25:18.660Z",
+      "reply": "IVORY-INLET-8526",
+      "reply_code": "IVORY-INLET-8526",
+      "code_check": "match"
+    },
+    {
+      "round": "r1c",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "JinaReader",
+      "token": "9oqHA43ojQIb",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "US"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:26:09.107Z",
+      "last": "2026-10-09T08:26:09.107Z",
+      "reply": "The canary code for this page is **FROSTY-YARROW-8091**.",
+      "reply_code": "FROSTY-YARROW-8091",
+      "code_check": "match"
+    },
+    {
+      "round": "r1c",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "ChatGPT-web",
+      "token": "tPozUjt4I7Uv",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "US"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "ChatGPT-User"
+      ],
+      "first": "2026-10-09T08:32:23.603Z",
+      "last": "2026-10-09T08:32:23.603Z",
+      "reply": "answered (operator reported done; reply text not recorded)",
+      "reply_code": null,
+      "code_check": null
+    },
+    {
+      "round": "r2",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "ChatGPT",
+      "token": "Loe0yufIXEFH",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "US"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "ChatGPT-User"
+      ],
+      "first": "2026-10-09T08:39:20.534Z",
+      "last": "2026-10-09T08:39:20.534Z",
+      "reply": "gave the code",
+      "reply_code": "COBALT-QUARRY-5631",
+      "code_check": "match",
+      "note": "operator reused existing chats this round"
+    },
+    {
+      "round": "r2",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Claude",
+      "token": "5Ji6f4hmz-pf",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "US"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "Claude-User"
+      ],
+      "first": "2026-10-09T08:40:05.718Z",
+      "last": "2026-10-09T08:40:05.718Z",
+      "reply": "gave the code",
+      "reply_code": "TAWNY-RAVEN-9862",
+      "code_check": "match",
+      "note": "operator reused existing chats this round"
+    },
+    {
+      "round": "r2",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Gemini",
+      "token": "eVLTMufgqnaT",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "BE"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "Google (bare)"
+      ],
+      "first": "2026-10-09T08:40:29.840Z",
+      "last": "2026-10-09T08:40:29.840Z",
+      "reply": "gave the code",
+      "reply_code": "AMBER-NETTLE-2535",
+      "code_check": "match",
+      "note": "operator reused existing chats this round"
+    },
+    {
+      "round": "r2",
+      "mode": "c",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Grok",
+      "token": "OH0dLtXcENgW",
+      "page_requests": 11,
+      "malformed_requests": 1,
+      "distinct_ips": 12,
+      "distinct_asns": 9,
+      "countries": [
+        "AR",
+        "BR",
+        "GB",
+        "JP",
+        "MX",
+        "US",
+        "VE"
+      ],
+      "statuses": [
+        200,
+        404
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:41:15.869Z",
+      "last": "2026-10-09T08:44:55.138Z",
+      "reply": "gave the code",
+      "reply_code": "KINDLED-OTTER-3002",
+      "code_check": "match",
+      "note": "operator reused existing chats this round"
+    },
+    {
+      "round": "r2",
+      "mode": "blocked",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "ChatGPT",
+      "token": "UmFZ9YZrodbD",
+      "page_requests": 0,
+      "malformed_requests": 0,
+      "distinct_ips": 0,
+      "distinct_asns": 0,
+      "countries": [],
+      "statuses": [],
+      "ua_kinds": [],
+      "first": null,
+      "last": null,
+      "reply": "\"I couldn’t retrieve the third URL because the page fetch was blocked.\"",
+      "reply_code": null,
+      "code_check": null,
+      "note": "operator reused existing chats this round"
+    },
+    {
+      "round": "r2",
+      "mode": "blocked",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Claude",
+      "token": "ldyVUF5N_1pH",
+      "page_requests": 0,
+      "malformed_requests": 0,
+      "distinct_ips": 0,
+      "distinct_asns": 0,
+      "countries": [],
+      "statuses": [],
+      "ua_kinds": [],
+      "first": null,
+      "last": null,
+      "reply": "\"I couldn’t open this one. The site’s robots rules block automated access to the /blocked/ path, so I can’t read its contents. I won’t try to get around that with another route.\"",
+      "reply_code": null,
+      "code_check": null,
+      "note": "operator reused existing chats this round"
+    },
+    {
+      "round": "r2",
+      "mode": "blocked",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Gemini",
+      "token": "T74BXDAZcEDS",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "BE"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "Google (bare)"
+      ],
+      "first": "2026-10-09T08:42:25.914Z",
+      "last": "2026-10-09T08:42:25.914Z",
+      "reply": "gave the code",
+      "reply_code": "RUSTY-CANYON-9864",
+      "code_check": "match",
+      "note": "operator reused existing chats this round"
+    },
+    {
+      "round": "r2",
+      "mode": "blocked",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "product": "Grok",
+      "token": "6KMsaNPXocHa",
+      "page_requests": 8,
+      "malformed_requests": 1,
+      "distinct_ips": 9,
+      "distinct_asns": 7,
+      "countries": [
+        "BR",
+        "GB",
+        "MX",
+        "NL",
+        "UA",
+        "US"
+      ],
+      "statuses": [
+        200,
+        404
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:43:01.840Z",
+      "last": "2026-10-09T08:45:20.620Z",
+      "reply": "\"No block message, error, or other content showed up when the page was fetched.\"",
+      "reply_code": "JADE-BEACON-2154",
+      "code_check": "match",
+      "note": "operator reused existing chats this round"
+    },
+    {
+      "round": "r3",
+      "mode": "q",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "product": "ChatGPT",
+      "token": "zJfUwSetyhMY",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "US"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "ChatGPT-User"
+      ],
+      "first": "2026-10-09T08:51:14.422Z",
+      "last": "2026-10-09T08:51:14.422Z",
+      "reply": "The canary code on the page is JADE-MEADOW-7997.",
+      "reply_code": "JADE-MEADOW-7997",
+      "code_check": "match"
+    },
+    {
+      "round": "r3",
+      "mode": "q",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "product": "Claude",
+      "token": "DllH-irkOhjI",
+      "page_requests": 0,
+      "malformed_requests": 0,
+      "distinct_ips": 0,
+      "distinct_asns": 0,
+      "countries": [],
+      "statuses": [],
+      "ua_kinds": [],
+      "first": null,
+      "last": null,
+      "reply": "\"I couldn’t open that page. The site’s robots.txt blocks automated access, so I can’t read the canary code from it. I also won’t try to get around that with another fetch method.\"",
+      "reply_code": null,
+      "code_check": null
+    },
+    {
+      "round": "r3",
+      "mode": "q",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "product": "Gemini",
+      "token": "4U6gGGeJhOs5",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "BE"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "Google (bare)"
+      ],
+      "first": "2026-10-09T08:52:45.472Z",
+      "last": "2026-10-09T08:52:45.472Z",
+      "reply": "The canary code for that page is RUSTY-KESTREL-4632.",
+      "reply_code": "RUSTY-KESTREL-4632",
+      "code_check": "match"
+    },
+    {
+      "round": "r3",
+      "mode": "q",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "product": "Grok",
+      "token": "vT8QllTp2_MR",
+      "page_requests": 11,
+      "malformed_requests": 0,
+      "distinct_ips": 11,
+      "distinct_asns": 9,
+      "countries": [
+        "BR",
+        "CA",
+        "US"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "browser-like, no bot token"
+      ],
+      "first": "2026-10-09T08:53:24.966Z",
+      "last": "2026-10-09T08:55:56.037Z",
+      "reply": "The canary code on that page is FROSTY-DELTA-1743.",
+      "reply_code": "FROSTY-DELTA-1743",
+      "code_check": "match"
+    },
+    {
+      "round": "r4",
+      "mode": "q",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "product": "ChatGPT",
+      "token": "sVCthAzaRWit",
+      "page_requests": 0,
+      "malformed_requests": 0,
+      "distinct_ips": 0,
+      "distinct_asns": 0,
+      "countries": [],
+      "statuses": [],
+      "ua_kinds": [],
+      "first": null,
+      "last": null,
+      "reply": "\"I tried opening the page, but it returned a restricted-URL error, so I couldn’t read the canary code.\"",
+      "reply_code": null,
+      "code_check": null,
+      "note": "sent after the r5 403 on the same host"
+    },
+    {
+      "round": "r5",
+      "mode": "z",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "product": "ChatGPT",
+      "token": "jcIEMBV5eVCa",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "US"
+      ],
+      "statuses": [
+        403
+      ],
+      "ua_kinds": [
+        "ChatGPT-User"
+      ],
+      "first": "2026-10-09T08:57:50.945Z",
+      "last": "2026-10-09T08:57:50.945Z",
+      "reply": "\"I tried opening the page, but the website returned 403 Forbidden, so I couldn’t read the canary code directly.\"",
+      "reply_code": null,
+      "code_check": null
+    },
+    {
+      "round": "r5",
+      "mode": "z",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "product": "Claude",
+      "token": "ZBbF-oFolGRN",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "US"
+      ],
+      "statuses": [
+        403
+      ],
+      "ua_kinds": [
+        "Claude-User"
+      ],
+      "first": "2026-10-09T08:58:41.531Z",
+      "last": "2026-10-09T08:58:41.531Z",
+      "reply": "\"I couldn’t read that page: the site blocked my request with bot detection, so I can’t see the canary code.\"",
+      "reply_code": null,
+      "code_check": null
+    },
+    {
+      "round": "r6",
+      "mode": "p",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "product": "ChatGPT",
+      "minted_as": "ChatGPT",
+      "token": "RnpqYz3LGGmZ",
+      "fetched_token": "RnpqYz3LGGm",
+      "page_requests": 1,
+      "malformed_requests": 0,
+      "distinct_ips": 1,
+      "distinct_asns": 1,
+      "countries": [
+        "US"
+      ],
+      "statuses": [
+        200
+      ],
+      "ua_kinds": [
+        "ChatGPT-User"
+      ],
+      "first": "2026-10-09T09:01:57.539Z",
+      "last": "2026-10-09T09:01:57.539Z",
+      "reply": "The canary code is GILDED-RIDGE-1257.",
+      "reply_code": "GILDED-RIDGE-1257",
+      "code_check": "match",
+      "note": "ChatGPT-User fetched the URL with its last character dropped; this is the code of the truncated URL"
+    }
+  ],
+  "robots": [
+    {
+      "time": "2026-10-09T08:32:57.654Z",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "ua_kind": "PerplexityBot",
+      "asn": 14618,
+      "as_org": "Amazon Technologies Inc."
+    },
+    {
+      "time": "2026-10-09T08:33:07.256Z",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "ua_kind": "Claude-User",
+      "asn": 396982,
+      "as_org": "Google LLC"
+    },
+    {
+      "time": "2026-10-09T08:35:19.604Z",
+      "host": "whofetched.intikhabhunzai.workers.dev",
+      "ua_kind": "OAI-SearchBot",
+      "asn": 8075,
+      "as_org": "Microsoft Deutschland MCIO GmbH"
+    },
+    {
+      "time": "2026-10-09T08:51:46.854Z",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "ua_kind": "Claude-User",
+      "asn": 396982,
+      "as_org": "Google LLC"
+    },
+    {
+      "time": "2026-10-09T08:52:30.711Z",
+      "host": "fieldnotes.intikhabhunzai.workers.dev",
+      "ua_kind": "OAI-SearchBot",
+      "asn": 8075,
+      "as_org": "Microsoft Deutschland MCIO GmbH"
+    }
+  ]
+}
