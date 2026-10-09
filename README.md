@@ -119,7 +119,7 @@ Things that went wrong here, so you can skip them:
 | `summary.json` | The per-request numbers behind the table and chart |
 | `SHA256SUMS` + `.ots` | Hashes of the files above **and the private raw log**, timestamped on Bitcoin with [OpenTimestamps](https://opentimestamps.org) |
 
-Check it with `ots verify SHA256SUMS.ots`. The raw log can be shared on request and checked against the first line of `SHA256SUMS`. `tools/ots_stamp.py` stamps a file where the `ots` command line won't start (Windows).
+Check it with `ots verify SHA256SUMS.ots`. The raw log can be shared on request and checked against the first line of `SHA256SUMS`. Timestamping is free: no wallet or bitcoin is needed, because the OpenTimestamps calendars batch many fingerprints into one Bitcoin transaction. Where the `ots` command line won't start (Windows), `tools/ots_stamp.py` stamps a file. `tools/ots_upgrade.py` then finishes the proof once Bitcoin confirms it, and checks it against a public block explorer.
 
 ## Limits
 
